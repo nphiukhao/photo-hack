@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background: #0d111b;
+  background-size: cover;
+  font-family: monospace;
+  color: white;
+  height: 100%;
 }
 
 .App-logo {
@@ -34,5 +39,68 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.photo{
+  width: 100vw;
+  /* height: 90vh; */
+  /* display: flex; */
+  /* flex: 2; */
+  /* flex-wrap: wrap; */
+  columns: 300px 4;
+  margin-top: 200px;
+}
+
+img {
+  margin-bottom: 15px;
+}
+
+input {
+  background: grey;
+  text-decoration: none;
+  border: 0;
+  height: 30px;
+  border-radius: 25px;
+  font-family: monospace;
+  padding-left: 20px;
+  font-size: 18px;
+
+
+}
+
+button {
+
+  padding: 10px;
+  margin-left: 10px;
+  border: 0;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 18px;
+  background: none;
+  color: white;
+}
+
+.open {
+  margin-top: 20vh;
+  font-size: 22px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  padding-top: 20px;
+  font-size: 50px;
+  margin: 0;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+    display: block;
+    margin: auto;
+  }
+  input {
+    width: 100px;
   }
 }
